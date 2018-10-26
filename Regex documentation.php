@@ -24,11 +24,6 @@
 		// no match
 	}
 
-$newMdp = format($_POST['password']);
-if (!preg_match("/^(?=.*[0-9])(?=.*[A-Z])[0-9A-Za-z]{8,25}$/",$newMdp)) {
-    $msg=$msg.$message['invalidPassword'];
-    $validate=false;
-
 /*<----------------###### JS Regex  ######------------------->*/
 
 	// MAIL Regex to match: anything@anything.anything 
